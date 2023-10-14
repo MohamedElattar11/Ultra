@@ -1,0 +1,43 @@
+  .about{
+    height: 500px;
+    background: url('../../../public/images/creative/about-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .about-info{
+    padding-top: 100px;
+    width: 50%;
+    float: right;
+  }
+  .info-title{
+    font-weight: bold;
+    font-size: 50px;
+  }
+  .info-title span{
+    font-weight: normal;
+  }
+  .info-dir{
+    font-size: 40px;
+    color: #eb5424;
+    margin-bottom: 10px;
+  }
+  .info-desc{
+    color: #000;
+    margin-bottom: 5px;
+    line-height: 1.8;
+  }
+  @media (max-width:991px) {
+    .about {
+        height: auto
+    }
+    .about .about-info {
+        width: 100%;
+        padding-top: 10px;
+        float: none
+    }
+    
+    .about .about-info .info-dir {
+        font-size: 30px
+    }
+}
