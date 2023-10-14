@@ -11,7 +11,7 @@ import './contact.css';
                         <input type="text" placeholder="Your Name"/>
                         <input type="email" placeholder="Your Email"/>
                     </div>
-                    <input type="text" class="sub" placeholder="Your Subject"/>
+                    <input type="text" className="sub" placeholder="Your Subject"/>
                     <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
                     <input type="submit" value="Send Message"/>
                 </form>
